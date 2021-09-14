@@ -9,6 +9,7 @@
 </head>
     <?php include('process.php');
     // FETCH THE DATA TO BE UPDATED
+    // fetch and echo to input field when edit button click
         if(isset($_GET['edit'])){
             $id = $_GET['edit'];
 

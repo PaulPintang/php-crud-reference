@@ -8,7 +8,7 @@
     $update = false;
 
     // connection
-    $db = mysqli_connect('localhost', 'root', '', 'crud');
+    $db = mysqli_connect('localhost', 'root', 'paulpin', 'crud');
 
     // insert to database
     if(isset($_POST['save'])){
